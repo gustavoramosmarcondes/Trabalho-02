@@ -1,0 +1,39 @@
+.Planejamento form{
+    box-shadow: 2px 6px 15px #3a52a1;; /* 1 sombra horizontal, 2 vertical, 3 desfoque*/
+    background-color: #dfdddd;
+    text-align: center;
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 24%;
+    margin-right: 24%;
+    margin-bottom: 5%;
+}
+.Planejamento h3{
+    color: #485da0;
+    font-size: 24px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.Planejamento label, input{
+    color: black;
+    font-size: 21px;
+    margin-bottom: 10px;
+}
+.Planejamento input{
+    color: black;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.Planejamento #ButtonPesquisar{
+    background-color: #3a52a1;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
