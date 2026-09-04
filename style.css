@@ -15,9 +15,12 @@
     margin-right: 10px;
     margin-left: 10px;
 }
+.Planejamento label{
+    font-family: Helvetica, sans-serif;
+}
 .Planejamento label, input{
     color: black;
-    font-size: 21px;
+    font-size: 18px;
     margin-bottom: 10px;
 }
 .Planejamento input{
