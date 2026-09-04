@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Trabalho 01</title>
 </head>
 
@@ -124,11 +125,11 @@
 
     <!--  Div utilizada para dividir e organizar a parte de "planejamento". Identificamos essa div  com class="Planejamento"  -->
     <div class="Planejamento">
-        <h3>Planeje os lugares que você pretende visitar, para conhecer mais sobre Inteligência Artificial?</h3>
         <form action="https://www.google.com/search" method="get"> <!-- form serve para criar um formulário, e o "action" é onde o formulário será enviado -->
+            <h3>Planeje os lugares que você pretende visitar, para conhecer mais sobre Inteligência Artificial?</h3>
             <!-- Label permite o usuário escrever a informação solicitadas.-->
             <label for="destino">Destino:</label> 
-            <input type="text" id="destino" name="q" placeholder="Digite o destino dos seus sonhos">
+            <input type="text" id="destino" name="q" placeholder="Digite o destino">
             <!-- type tipo do input, id identificador, name nome do campo, placeholder texto de ajuda -->
 
             <br>
@@ -137,7 +138,7 @@
             <input type="date" id="data" name="data">
 
             <br>
-            <input type="submit" value="Pesquisar"> <!-- Value é o texto exibido no botão -->
+            <input type="submit" value="Pesquisar" id="ButtonPesquisar"> <!-- Value é o texto exibido no botão -->
         </form>
     </div>
 
