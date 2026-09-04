@@ -1,3 +1,101 @@
+body {
+
+background-color: whitesmoke;
+margin: 40px;
+
+}
+
+#name{
+    font-size: 50px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#prof {
+    font-size: 30px;
+    text-decoration:underline
+}
+
+h3 {
+    font-size: 20px;
+    background-color: blue;
+    padding: 8px 10px;
+    display: inline-block; /* deixa a cor do fundo somnete atras da frase */
+    color: white;
+    border-radius: 12px;
+    
+
+}
+
+.apresentacao p {
+
+    font-size: 18px;
+    font-weight: bolder;
+
+}
+
+#linha1{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration:underline;
+    
+}
+
+#linha2{
+    font-size: 20px;
+    font-weight: bolder;
+    font-style: oblique;
+    text-decoration:underline;
+}
+
+
+#tabela {
+    border: 2px solid blue;
+    border-radius: 8px;     
+    padding: 10px;           
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.418) ;
+}
+
+#tabela th{
+    font-size: 20px;
+    color: blue;
+}
+
+#tabela td{
+    font-weight: bolder;
+}
+
+.Contatos p{
+    font-size: 20px;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.326);
+}
+
+.lugares p{
+    margin-top: 30px;
+}
+
+.lugares ol{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.lugares li{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+
+}
+
+
 .Planejamento form{
     box-shadow: 2px 6px 15px #3a52a1;; /* 1 sombra horizontal, 2 vertical, 3 desfoque*/
     background-color: #dfdddd;
@@ -9,18 +107,10 @@
     margin-bottom: 5%;
     margin-top: 5%;
 }
-.Planejamento h3{
-    color: #485da0;
-    font-size: 24px;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-.Planejamento label{
-    font-family: Helvetica, sans-serif;
-}
+
 .Planejamento label, input{
     color: black;
-    font-size: 18px;
+    font-size: 21px;
     margin-bottom: 10px;
 }
 .Planejamento input{
